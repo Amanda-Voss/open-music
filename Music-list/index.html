@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <title>Open Music</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1 id="logo"><strong>O</strong>pen <strong>M</strong>usic</h1>
+      </nav>
+    </header>
+
+    <main>
+      <section class="filters-section">
+        <h4 class="section-title">Gênero Musical</h4>
+        <ul class="filters-list">
+          <li>
+            <button class="filter-btn selected">Todos</button>
+          </li>
+          <li>
+            <button class="filter-btn">Pop</button>
+          </li>
+          <li>
+            <button class="filter-btn">MPB</button>
+          </li>
+          <li>
+            <button class="filter-btn">Forró</button>
+          </li>
+          <li>
+            <button class="filter-btn">Samba</button>
+          </li>
+          <li>
+            <button class="filter-btn">Baião</button>
+          </li>
+          <li>
+            <button class="filter-btn">Rap</button>
+          </li>
+          <li>
+            <button class="filter-btn">Rock</button>
+          </li>
+        </ul>
+      </section>
+      <section class="musics-section">
+        <h4 class="section-title">Albuns Encontrados</h4>
+        <ul id="music-list">
+          <li class="music-card">
+            <img class="music-cover" src="./assets/cover-1.png" alt="Cover 1" />
+            <div class="music-info-container">
+              <h5 class="music-title">Acabou o Chorare</h5>
+              <div class="music-desciption-container">
+                <p class="music-description">Novos Baianos</p>
+                <p class="music-description">MPB</p>
+              </div>
+              <div class="music-price-container">
+                <p class="music-price">R$ 137,91</p>
+                <button class="music-buy-btn">Comprar</button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <script src="./scripts/global.js"></script>
+  </body>
+</html>
